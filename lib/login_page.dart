@@ -21,7 +21,13 @@ class LoginPageState extends State<LoginPage> {
         body: ListView(children: <Widget>[
           Column(
             children: [
-              SizedBox(),
+              SizedBox(
+                child: CircleAvatar(
+                  radius: 50,
+                  backgroundColor: Colors.black,
+                  child: Text('holaa!!!'),
+                ),
+              ),
             ],
           )
         ]));
